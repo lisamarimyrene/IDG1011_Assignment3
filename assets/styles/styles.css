@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Inter&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #21202E;
+  color: #F0E9FF;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  height: auto;
+}
+body #info {
+  margin: 15px;
+  font-size: 22px;
+  font-family: "Gochi Hand", cursive;
+  letter-spacing: 1px;
+}
+
+main {
+  width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 0 100px 0;
+  height: auto;
+}
+main #title-section {
+  background-color: #493D78;
+  color: #F0E9FF;
+  border-radius: 20px;
+  height: 65px;
+  width: 500px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+main #title-section h1 {
+  padding-top: 12px;
+  text-transform: uppercase;
+  font-family: "Gochi Hand", cursive;
+  letter-spacing: 2px;
+  font-size: 35px;
+}
+main #main-section {
+  width: 499px;
+  height: auto;
+  background-color: #8C84B7;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: -55px;
+  padding-top: 75px;
+  padding-bottom: 30px;
+}
+main #main-section #addButton-div {
+  height: 40px;
+}
+main #main-section #addButton-div .addButton {
+  background-color: #CCBEEB;
+  color: #493D78;
+  box-shadow: 0px 3px 0px 0px #493D78;
+  border: none;
+  border-radius: 20px;
+  width: 90px;
+  padding: 8px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+main #main-section #addButton-div .addButton:hover {
+  color: white;
+}
+main #main-section #addButton-div .addButton:active {
+  margin-top: 3px;
+  box-shadow: 0px 0px 0px 0px #493D78;
+}
+main #main-section #input-section {
+  margin-top: 20px;
+}
+main #main-section #input-section .input {
+  height: 12px;
+  width: 225px;
+  border: none;
+  border-radius: 10px;
+  padding: 7px;
+}
+main #main-section #input-section #inputButtons-div {
+  margin-top: 20px;
+}
+main #main-section #input-section #inputButtons-div .inputBtns {
+  text-align: center;
+  color: #F0E9FF;
+  border: none;
+  border-radius: 100%;
+  width: 38px;
+  height: 38px;
+  padding: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  font-size: 0.7rem;
+}
+main #main-section #input-section #inputButtons-div #okButton, main #main-section #input-section #inputButtons-div #ok2Button {
+  background-color: #3CD3A0;
+  margin-right: 5px;
+}
+main #main-section #input-section #inputButtons-div #escButton {
+  background-color: #E986F2;
+}
+main #main-section #list-section {
+  margin-top: 30px;
+}
+main #main-section #list-section .hobby-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main #main-section #list-section .hobby-list .listItemDiv {
+  display: grid;
+  grid-template-columns: 280px auto 30px 20px 30px;
+  grid-template-areas: "item . edit pipe del";
+  width: 400px;
+  height: 35px;
+  border-radius: 8px;
+  text-align: left;
+  padding-left: 10px;
+  align-items: center;
+  background-color: #CCBEEB;
+  color: #493D78;
+  margin-bottom: 12px;
+}
+main #main-section #list-section .hobby-list .listItemDiv .listItem {
+  grid-area: item;
+}
+main #main-section #list-section .hobby-list .listItemDiv button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+main #main-section #list-section .hobby-list .listItemDiv .editButton {
+  grid-area: edit;
+  color: #FFFF83;
+}
+main #main-section #list-section .hobby-list .listItemDiv .pipe {
+  grid-area: pipe;
+  text-align: center;
+  font-size: 13px;
+  color: #F0E9FF;
+}
+main #main-section #list-section .hobby-list .listItemDiv .deleteButton {
+  grid-area: del;
+  color: #B24CBB;
+  padding-right: 10px;
+}
+
+.footer {
+  background-color: #8C84B7;
+  color: #F0E9FF;
+  height: 135px;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+.footer p {
+  max-width: 450px;
+  padding: 20px 0 15px 0;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 27px;
+}
+.footer h2 {
+  font-size: 16px;
+  color: #493D78;
+}/*# sourceMappingURL=styles.css.map */
